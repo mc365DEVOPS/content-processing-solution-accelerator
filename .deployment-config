@@ -1,0 +1,33 @@
+# Content Processing Solution Accelerator - Deployment Configuration
+# This file stores the deployment parameters used for this solution
+
+# Azure Configuration
+TENANT_ID=33ce68e6-c5a8-455c-8741-b3ebb73dcb06
+SUBSCRIPTION_ID=7c8b2a60-04bf-498a-bbac-ce9ee669564a
+LOCATION=westus2
+
+# Environment Configuration
+ENVIRONMENT_NAME=rg-dashco
+DEPLOYMENT_TYPE=development  # Options: development, production
+
+# Deployment Settings
+AZURE_OPENAI_QUOTA_VERIFIED=true
+PERMISSIONS_LEVEL=owner
+LOG_ANALYTICS_WORKSPACE=new
+AI_FOUNDRY_PROJECT=new
+
+# Deployment Timestamp
+LAST_DEPLOYMENT=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+# Resource Group
+RESOURCE_GROUP=rg-l3-dashco
+
+# Service Endpoints (populated after deployment)
+WEB_APP_URL=https://ca-rgdashcoveq45-web.graygrass-edcd4988.eastus2.azurecontainerapps.io
+API_APP_URL=https://ca-rgdashcoveq45-api.graygrass-edcd4988.eastus2.azurecontainerapps.io
+
+# Notes
+# - Deployment completed successfully on $(date -u +"%Y-%m-%d")
+# - Using Development/Testing configuration (main.parameters.json)
+# - All services deployed to eastus2 region
+# - Post-deployment steps required: Schema registration, Sample data import, Authentication setup
