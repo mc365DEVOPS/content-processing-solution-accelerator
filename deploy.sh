@@ -31,7 +31,7 @@ NC='\033[0m' # No Color
 # Configuration
 TENANT_ID="33ce68e6-c5a8-455c-8741-b3ebb73dcb06"
 SUBSCRIPTION_ID="7c8b2a60-04bf-498a-bbac-ce9ee669564a"
-LOCATION="westus2"
+LOCATION="centralus"
 DEFAULT_ENV_NAME="rg-dashco"
 
 ################################################################################
