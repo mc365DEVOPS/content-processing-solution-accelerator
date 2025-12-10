@@ -7,7 +7,7 @@ SUBSCRIPTION_ID=7c8b2a60-04bf-498a-bbac-ce9ee669564a
 LOCATION=westus2
 
 # Environment Configuration
-ENVIRONMENT_NAME=rg-dashco
+ENVIRONMENT_NAME=dashco
 DEPLOYMENT_TYPE=development  # Options: development, production
 
 # Deployment Settings
@@ -20,7 +20,7 @@ AI_FOUNDRY_PROJECT=new
 LAST_DEPLOYMENT=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
 # Resource Group
-RESOURCE_GROUP=rg-l3-dashco
+RESOURCE_GROUP=rg-dashco
 
 # Service Endpoints (populated after deployment)
 WEB_APP_URL=https://ca-rgdashcoveq45-web.graygrass-edcd4988.eastus2.azurecontainerapps.io

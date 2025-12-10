@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage="Environment name for the deployment")]
-    [string]$EnvName = "rg-dashco",
+    [string]$EnvName = "dashco",
     
     [Parameter(HelpMessage="Skip authentication step")]
     [switch]$SkipAuth,
